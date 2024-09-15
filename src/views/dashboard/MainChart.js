@@ -37,7 +37,7 @@ const MainChart = () => {
           labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
           datasets: [
             {
-              label: 'My First dataset',
+              label: 'Stats',
               backgroundColor: `rgba(${getStyle('--cui-info-rgb')}, .1)`,
               borderColor: getStyle('--cui-info'),
               pointHoverBackgroundColor: getStyle('--cui-info'),
@@ -54,7 +54,7 @@ const MainChart = () => {
               fill: true,
             },
             {
-              label: 'My Second dataset',
+              label: 'Stats-2',
               backgroundColor: 'transparent',
               borderColor: getStyle('--cui-success'),
               pointHoverBackgroundColor: getStyle('--cui-success'),
@@ -70,7 +70,7 @@ const MainChart = () => {
               ],
             },
             {
-              label: 'My Third dataset',
+              label: 'Stats',
               backgroundColor: 'transparent',
               borderColor: getStyle('--cui-danger'),
               pointHoverBackgroundColor: getStyle('--cui-danger'),

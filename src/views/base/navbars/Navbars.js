@@ -97,10 +97,10 @@ const CNavbars = () => {
                 setNavbarText(!navbarText)
               }}
             />
-            <CNavbarBrand>NavbarBrand</CNavbarBrand>
+            <CNavbarBrand>VOID</CNavbarBrand>
             <CCollapse show={navbarText}>
               <CNavbarNav>
-                <CNavbarText>Navbar text</CNavbarText>
+                <CNavbarText>VOID</CNavbarText>
               </CNavbarNav>
             </CCollapse>
           </CNavbar>
